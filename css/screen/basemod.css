@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS framework
+ * (en) stylesheet for screen layout
+ * (de) Stylesheet fr das Bildschirm-Layout
+ *
+ * @creator     YAML Builder V1.0.1 (http://builder.yaml.de)
+ * @file        basemod.css
+ */
+
+@media screen, projection
+{
+  /*-------------------------------------------------------------------------*/
+
+  /* (en) Marginal areas & page background */
+  /* (de) Randbereiche & Seitenhintergrund */
+  body { background: #fff; color:#000; padding: 0;}
+
+  /* Layout Alignment | Layout-Ausrichtung */
+  #page_margins { margin: 0 auto; }
+
+  /* Layout Properties | Layout-Eigenschaften */
+  #page_margins { width: auto;  min-width: inherit; max-width:600px; background: #fff;}
+  #page { padding: 0; }
+  #nav { overflow:hidden; }
+  #nav_main {  }
+  #main { margin: 0; background: #fff; }
+  #footer { padding: 35px 20px;  border-top: 1px #000 dotted; }
+
+  /* (en) navigation: horizontal adjustment | (de) horizontale Ausrichtung  */
+  #nav ul { margin-left: 20px; }
+
+  /*-------------------------------------------------------------------------*/
+
+  /**
+   * (en) Formatting content container
+   * (de) Formatierung der Inhalts-Container
+   *
+   */
+
+  #main { padding: 0; }
+	
+  /*-------------------------------------------------------------------------*/
+}
